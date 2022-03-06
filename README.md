@@ -11,7 +11,7 @@ Follow these steps to get the API running.
     - [Nodejs](https://nodejs.org/en/)
 2.  Clone this repo to your local machine
 
-        https://github.com/Jaideep-C/file-transfer-server.git
+        git clone https://github.com/Jaideep-C/file-transfer-server.git
 
 3.  Navigate into the `file-transfer-server` directory
 
