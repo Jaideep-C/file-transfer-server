@@ -4,7 +4,7 @@ const cors = require("cors");
 const fileRoutes = require("./routes/file_route");
 const upload = require("./util/multer");
 
-async function serverStart() {
+function serverStart() {
   const app = express();
   const port = 3000;
 
@@ -14,6 +14,8 @@ async function serverStart() {
 
   app.get("/", (req, res) => res.json("alpha"));
 
-  app.listen(port);
+  app.listen(port, () =>
+    console.log(`Server is running on http://localhost:${port}/`)
+  );
 }
 serverStart();
