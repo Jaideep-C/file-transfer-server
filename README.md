@@ -1,6 +1,6 @@
 # Installation
 
-Talawa API is a `node.js` application. It can be setup by node's default package manager `npm`.
+File-Transfer API is a `node.js` application. It can be setup by node's default package manager `npm`.
 
 ## Standard Installation
 
